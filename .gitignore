@@ -1,0 +1,23 @@
+# Ignore compiled binaries
+tachikomaDreams
+*.o
+*.out
+
+# Ignore logs, temporary files
+*.log
+*.tmp
+
+# Ignore user settings
+.DS_Store
+.idea/
+.vscode/
+zed/
+
+# Ignore game save data 
+data/save_data.json
+
+# Ignore CMake & build system files
+/build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
